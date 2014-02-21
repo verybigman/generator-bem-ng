@@ -49,7 +49,7 @@ module.exports = function (grunt) {
             }
         },
 
-        exec: {
+        shell: {
             mkdirs: {
                 command: "mkdir -p <%= project.styles %> && mkdir -p <%= project.scripts %>"
             },
@@ -116,11 +116,11 @@ module.exports = function (grunt) {
         "bem:bundles",
         "copy:bundles",
         "copy:assets",
-        "exec:mkdirs",
-        "exec:concat_css",
-        "exec:concat_js",
-        "exec:borschik_csso",
-        "exec:borschik_uglify"
+        "shell:mkdirs",
+        "shell:concat_css",
+        "shell:concat_js",
+        "shell:borschik_csso",
+        "shell:borschik_uglify"
     ]);
 };
 
