@@ -15,7 +15,7 @@
         "time-grunt": "~0.2.0",
         "grunt-spritesmith": "~1.21.2",
         "grunt-bem-revised": "~0.0.1",
-        "grunt-exec": "~0.4.3",
+        "grunt-shell": "~0.6.4",
         "borschik": "~0.4.2",
         "grunt-csscomb": "~2.0.1"
     },
